@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Weather from '../components/Weather';
+import Weather from "./components/Weather";
+
 
 const Homepage = () => {
   const [location, setLocation] = useState(localStorage.getItem('location') || 'Kathmandu');
