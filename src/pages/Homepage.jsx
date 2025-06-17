@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Weather from "./components/Weather";
+import Weather from "../Components/Weather";  
+
 
 
 const Homepage = () => {
